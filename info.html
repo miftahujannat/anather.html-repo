@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Info Table</title>
+   
     <style>
         table{
             border-collapse: collapse;
+        
         }
         th,td{
             border: 3px solid blue;
@@ -22,6 +24,15 @@
             margin-right: 10px;
             list-style: none;
         }
+        div.m{
+            color: rgb(238, 18, 238);
+        }
+        div.n{
+            color: rgb(63, 180, 184);
+        }
+        div.r{
+            background-color: rgb(6, 186, 231);
+        }
     </style>
 </head>
 <body>
@@ -35,28 +46,35 @@
         </nav>
     </header>
     <table>
+        <div class="m">
+        <h1><i>INFORMATION</i></h1>
+        </div>
+        <div class="n">
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel debitis maxime laboriosam ducimus error dolorem atque similique. Culpa doloribus repudiandae mollitia molestiae aliquid adipisci esse error fuga iusto placeat! Cum facilis mollitia veniam, quisquam nostrum reprehenderit incidunt nulla alias ratione?</h3>
+        </div>
         <thead>
             <tr>
                 <th>Exam</th>
                 <th>Year</th>
                 <th>GPA</th>
             </tr>
+            
         </thead>
         <tbody>
             <tr>
-                <td>PSC</td>
-                <td>2015</td>
-                <td>5.00</td>
+                <td bgcolor="green">PSC</td>
+                <td bgcolor="wheat">2015</td>
+                <td bgcolor="blue">5.00</td>
             </tr>
             <tr>
-                <td>SSC</td>
-                <td>2021</td>
-                <td>3.94</td>
+                <td bgcolor="wheat">SSC</td>
+                <td bgcolor="brown">2021</td>
+                <td bgcolor="wheat">3.94</td>
             </tr>
             <tr>
-                <td>HSC</td>
-                <td>2023</td>
-                <td>4.50</td>
+                <td bgcolor="orchid">HSC</td>
+                <td bgcolor="wheat">2023</td>
+                <td bgcolor="aqua">4.50</td>
             </tr>
         </tbody>
     </table> 
